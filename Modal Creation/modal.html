@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Interactive Modal</title>
+  <link rel="stylesheet" href="modal.css">
+</head>
+<body>
+  <section>
+    <button id="toggleBgButton">Toggle Background Color</button>
+    <div>
+      <p id="dynamicText">Adjust the slider to change my size!</p>
+      <input type="range" id="slider" min="12" max="48" value="16">
+    </div>
+  </section>
+  
+  <section>
+    <button id="openModalButton">Open Modal</button>
+    <!-- Modal Component -->
+    <div id="modalContainer">
+    </section>
+    <div class="modal" id="modal">
+        <p>This is a modal. Click close to hide it.</p>
+        <button id="closeModalButton">Close</button>
+      </div>
+    </div>
+
+    <script src="modal.js"></script>
+  
+</body>
+</html>
+  
